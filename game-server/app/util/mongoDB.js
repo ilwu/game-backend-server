@@ -3,15 +3,18 @@
  */
 
 const mongo = require("mongoose")
-const dbConfig = require("../../config/dbConfig.json")
 
 const mongoOptions = { useUnifiedTopology: true, useNewUrlParser: true }
 
+const DB_URL_FISH = "mongodb://192.168.100.24:27017/fishHunter"
+const DB_URL_SLOT = "mongodb://192.168.100.24:27017/slot"
+const DB_URL_ARCADE = "mongodb://192.168.100.24:27017/slot"
+
 // Mongo 的資料庫對應
 const databases = new Map([
-  ["fishHunter", { url: dbConfig.mongodb.DB_URL_FISH, conn: null }],
-  ["slot", { url: dbConfig.mongodb.DB_URL_SLOT, conn: null }],
-  ["arcade", { url: dbConfig.mongodb.DB_URL_ARCADE, conn: null }],
+  ["fishHunter", { url: DB_URL_FISH, conn: null }],
+  ["slot", { url: DB_URL_SLOT, conn: null }],
+  ["arcade", { url: DB_URL_ARCADE, conn: null }],
 ])
 
 /**

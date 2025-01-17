@@ -1,0 +1,57 @@
+{
+  "request_adminlogin": "admin.adminHandler.logIn",
+  "request_createOperator": "admin.adminHandler.join",
+  "request_modifyUser_op": "admin.adminHandler.modifyOP",
+  "request_getUsers_op": "admin.adminHandler.getAdmins",
+  "request_getAdminEditInfo_op": "admin.adminHandler.getAdminEditInfo_op",
+
+  "request_userlogin_pr": "user.userHandler.logInPR",
+
+  "request_userlogin_pr_forTest": "user.userHandler.logInPR_Test",
+  "request_createUser_ha": "user.userHandler.joinHA",
+
+  "request_modifyUser_ha": "user.userHandler.modifyHA",
+  "request_getUsers_ha": "user.userHandler.getHAs",
+  "request_createUser_sha": "user.userHandler.joinSubHA",
+  "request_getUsers_sha": "user.userHandler.getSubHAs",
+  "request_modifyUser_sha": "user.userHandler.modifySubHA",
+  "request_getUsers_ag": "user.userHandler.getAGs",
+  "request_getUser": "user.userHandler.getUser",
+
+  "request_createUser_ag": "user.userHandler.joinAG",
+  "request_modifyUser_ag": "user.userHandler.modifyAG",
+  "request_createUser_pr": "user.userHandler.joinPR",
+  "request_joinAgentPage_init": "user.userHandler.getDefault_joinAgent",
+  "request_gamePage_init": "game.gameHandler.getInit",
+  "request_createGame": "game.gameHandler.createGame",
+
+  "request_modifyGame": "game.gameHandler.modifyGame",
+  "request_getGameInfo_op": "game.gameHandler.getGames",
+  "request_getGameOrder": "game.gameHandler.getGameOrder",
+  "request_modifyGameOrder": "game.gameHandler.modifyGameOrder",
+  "request_joinHallPage_init": "admin.adminHandler.getDefault_joinHall",
+  "request_getGames_joinHa": "game.gameHandler.getGames_byGroup_hall",
+
+  "request_getGames_joinAg": "game.gameHandler.getGames_byGroup_agent",
+  "request_getUsers_pr": "user.userHandler.getPRs",
+  "request_getBetlogs": "bet.betHandler.getList_BetHistory_v2",
+  "request_getUserDetail_ha": "user.userHandler.getDetailHA",
+  "request_getUserDetail_ag": "user.userHandler.getDetailAG",
+  "request_joinPageInit_sha": "admin.adminHandler.getDefault_joinSha",
+
+  "request_joinPageInit_op": "admin.adminHandler.getDefault_joinAdmin",
+  "request_getUserDetail_pr": "user.userHandler.getDetailPR",
+  "request_getGameOrder_lobby": "game.gameHandler.getGameOrder_byLobby",
+
+  "request_modifyUser_pr": "user.userHandler.modifyPR",
+  "request_modifyUserPassword": "user.userHandler.modifyPassword",
+
+  "request_modifyPassword_op": "admin.adminHandler.modifyPassword",
+  "request_getBetDetail": "admin.adminHandler.modifyPassword",
+  "request_getListAuthTmps": "admin.adminHandler.getList_AuthorityTmp",
+  "request_getDefaultJoinAuth": "admin.adminHandler.getDefault_joinAuthority",
+  "request_joinAuthTmp": "admin.adminHandler.join_AuthorityTemp",
+  "request_modifyAuthTmp": "admin.adminHandler.modify_AuthorityTemp",
+
+  "request_getListMarquee": "admin.adminHandler.getList_marquee"
+}

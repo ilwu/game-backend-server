@@ -1,0 +1,14 @@
+{
+  "name": "chatofpomelo",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^3.21.2",
+    "indexof": "0.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "querystring": "^0.2.1",
+    "url": "^0.11.0",
+    "websocket": "1.0.34"
+  }
+}

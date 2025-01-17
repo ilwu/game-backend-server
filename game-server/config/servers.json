@@ -1,0 +1,54 @@
+{
+  "@describe": {
+    "@development": "配置測試環境各種 type 的服務器",
+    "@production": "配置正式環境各種 type 的服務器",
+    "@connector": "服務器接收客戶端的連接請求",
+    "@admin": "admin 服務器",
+    "@user": "user 服務器",
+    "@game": "game 服務器",
+    "@config": "config 服務器",
+    "@bet": "bet 服務器",
+    "@chat": "chat 服務器",
+    "@auth": "auth 服務器",
+    "@log": "log 服務器",
+    "@gate": "gate 服務器",
+    "@id": "應用服務器 id",
+    "@host": "應用服務器 host，IT 會抓此字串替換為該環境的參數(若有調整)",
+    "@port": "應用服務器 port，IT 會抓此字串替換為該環境的參數(若有調整)",
+    "@clientPort": "前端服務器的客戶端請求監聽端口",
+    "@frontend": "是否是前端服務器"
+  },
+
+  "development": {
+    "connector": [
+      { "id": "connector-server-1", "host": "127.0.0.1", "port": 4050, "clientPort": 3001, "frontend": true },
+      { "id": "connector-server-2", "host": "127.0.0.1", "port": 4051, "clientPort": 3002, "frontend": true },
+      { "id": "connector-server-3", "host": "127.0.0.1", "port": 4052, "clientPort": 3003, "frontend": true }
+    ],
+    "admin": [{ "id": "admin-server-1", "host": "127.0.0.1", "port": 3004 }],
+    "user": [{ "id": "user-server-1", "host": "127.0.0.1", "port": 3007 }],
+    "game": [{ "id": "game-server-1", "host": "127.0.0.1", "port": 3010 }],
+    "config": [{ "id": "config-server-1", "host": "127.0.0.1", "port": 3013 }],
+    "bet": [{ "id": "bet-server-1", "host": "127.0.0.1", "port": 3019 }],
+    "chat": [{ "id": "chat-server-1", "host": "127.0.0.1", "port": 3450 }],
+    "auth": [{ "id": "auth-server-1", "host": "127.0.0.1", "port": 3451 }],
+    "log": [{ "id": "log-server-1", "host": "127.0.0.1", "port": 3452 }],
+    "gate": [{ "id": "gate-server-1", "host": "127.0.0.1", "clientPort": 3000, "frontend": true }]
+  },
+  "production": {
+    "connector": [
+      { "id": "connector-server-1", "host": "127.0.0.1", "port": 4050, "clientPort": 3001, "frontend": true },
+      { "id": "connector-server-2", "host": "127.0.0.1", "port": 4051, "clientPort": 3002, "frontend": true },
+      { "id": "connector-server-3", "host": "127.0.0.1", "port": 4052, "clientPort": 3003, "frontend": true }
+    ],
+    "admin": [{ "id": "admin-server-1", "host": "127.0.0.1", "port": 3004 }],
+    "user": [{ "id": "user-server-1", "host": "127.0.0.1", "port": 3007 }],
+    "game": [{ "id": "game-server-1", "host": "127.0.0.1", "port": 3010 }],
+    "config": [{ "id": "config-server-1", "host": "127.0.0.1", "port": 3013 }],
+    "bet": [{ "id": "bet-server-1", "host": "127.0.0.1", "port": 3019 }],
+    "auth": [{ "id": "auth-server-1", "host": "127.0.0.1", "port": 3451 }],
+    "log": [{ "id": "log-server-1", "host": "127.0.0.1", "port": 3452 }],
+    "cron": [{ "id": "cron-server-1", "host": "127.0.0.1", "port": 3453 }],
+    "gate": [{ "id": "gate-server-1", "host": "127.0.0.1", "clientPort": 3000, "frontend": true }]
+  }
+}

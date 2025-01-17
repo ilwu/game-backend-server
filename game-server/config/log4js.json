@@ -1,0 +1,393 @@
+{
+  "appenders": [
+    {
+      "type": "console"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/con-log-${opts:serverId}.log",
+      "pattern": "connector",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "con-log"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/rpc-log-${opts:serverId}.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "rpc-log"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/forward-log-${opts:serverId}.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "forward-log"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/rpc-debug-${opts:serverId}.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "rpc-debug"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/crash.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "crash-log"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/admin.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "admin-log"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/pomelo.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "pomelo"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/pomelo-admin.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "pomelo-admin"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/pomelo-rpc.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "pomelo-rpc"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/redisCache.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "redisCache"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/adminDao.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "adminDao"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/bettingDao.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "bettingDao"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/configDao.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "configDao"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/gameDao.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "gameDao"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/logDao.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "logDao"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/sysDao.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "sysDao"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/userDao.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "userDao"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/adminHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "adminHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/systemHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "systemHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/betHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "betHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/configRemote.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "configRemote"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/APIentryHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "APIentryHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/backendHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "backendHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/cron_onlineUserHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "cron_onlineUserHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/gameHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "gameHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/gameRemote.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "gameRemote"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/logHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "logHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/logRemote.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "logRemote"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/userHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "userHandler"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/mailService.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "mailService"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/statisticsService.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "statisticsService"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/creditNotify.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "creditNotify"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/revenue.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "revenue"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/requestService.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "requestService"
+    },
+    {
+      "type": "file",
+      "filename": "${opts:base}/logs/funkyHandler.log",
+      "maxLogSize": 1048576,
+      "layout": {
+        "type": "basic"
+      },
+      "backups": 5,
+      "category": "funkyHandler"
+    }
+  ],
+
+  "levels": {
+    "pomelo": "INFO",
+    "rpc-log": "INFO",
+    "forward-log": "INFO",
+    "adminDao": "INFO",
+    "bettingDao": "INFO",
+    "configDao": "INFO",
+    "gameDao": "INFO",
+    "logDao": "INFO",
+    "sysDao": "INFO",
+    "userDao": "INFO",
+    "adminHandler": "INFO",
+    "systemHandler": "INFO",
+    "betHandler": "INFO",
+    "configRemote": "INFO",
+    "APIentryHandler": "INFO",
+    "backendHandler": "INFO",
+    "cron_onlineUserHandler": "INFO",
+    "gameHandler": "INFO",
+    "gameRemote": "INFO",
+    "logHandler": "INFO",
+    "logRemote": "INFO",
+    "userHandler": "INFO",
+    "mailService": "INFO",
+    "statisticsService": "INFO",
+    "creditNotify": "INFO",
+    "revenue": "INFO",
+    "requestService": "INFO",
+    "funkyHandler": "INFO"
+  },
+
+  "replaceConsole": true,
+
+  "lineDebug": false
+}

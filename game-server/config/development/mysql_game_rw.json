@@ -1,0 +1,27 @@
+{
+  "@describe": {
+    "@development": "測試環境 MySQL 設定",
+    "@production": "正式環境 MySQL 設定",
+    "@host": "使用 MySQL IP，預設 10.0.5.230，IT 會抓此字串替換為該環境的參數(若有調整)",
+    "@port": "使用 MySQL port，預設 3308，IT 會抓此字串替換為該環境的參數(若有調整)",
+    "@database": "資料庫名稱",
+    "@user": "MySQL user，預設 apma，IT 會抓此字串替換為該環境的參數(若有調整)",
+    "@password": "MySQL password，預設 This123kw，IT 會抓此字串替換為該環境的參數(若有調整)"
+  },
+
+  "development": {
+    "host": "192.168.100.22",
+    "port": "3306",
+    "database": "game",
+    "user": "apma",
+    "password": "This123kw"
+  },
+
+  "production": {
+    "host": "10.0.5.110",
+    "port": "3306",
+    "database": "game",
+    "user": "root",
+    "password": "123456"
+  }
+}

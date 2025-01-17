@@ -1,0 +1,15 @@
+{
+  "development": {
+    "host": "192.168.100.23",
+    "port": 6379,
+    "user": "",
+    "password": ""
+  },
+
+  "production": {
+    "host": "10.0.5.110",
+    "port": 6379,
+    "user": "",
+    "password": ""
+  }
+}

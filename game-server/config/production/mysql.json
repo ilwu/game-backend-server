@@ -1,0 +1,17 @@
+{
+  "development": {
+    "host": "35.194.230.120",
+    "port": "3306",
+    "database": "game",
+    "user": "jamxu",
+    "password": "jamxu789"
+  },
+
+  "production": {
+    "host": "35.194.230.120",
+    "port": "3306",
+    "database": "game",
+    "user": "jamxu",
+    "password": "jamxu789"
+  }
+}

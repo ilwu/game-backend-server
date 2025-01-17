@@ -1,0 +1,7 @@
+{
+  "mongodb": {
+    "DB_URL_FISH": "mongodb://192.168.100.24:27017/fishHunter",
+    "DB_URL_SLOT": "mongodb://192.168.100.24:27017/slot",
+    "DB_URL_ARCADE": "mongodb://192.168.100.24:27017/slot"
+  }
+}

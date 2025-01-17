@@ -1,0 +1,5324 @@
+{
+  "development": {
+    "connector": [
+      {
+        "id": "connector-server-0",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-0.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-1",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-1.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-2",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-2.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-3",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-3.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-4",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-4.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-5",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-5.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-6",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-6.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-7",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-7.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-8",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-8.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-9",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-9.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-10",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-10.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-11",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-11.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-12",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-12.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-13",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-13.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-14",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-14.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-15",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-15.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-16",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-16.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-17",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-17.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-18",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-18.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-19",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-19.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-20",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-20.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-21",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-21.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-22",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-22.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-23",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-23.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-24",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-24.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-25",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-25.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-26",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-26.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-27",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-27.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-28",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-28.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-29",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-29.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-30",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-30.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-31",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-31.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-32",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-32.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-33",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-33.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-34",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-34.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-35",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-35.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-36",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-36.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-37",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-37.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-38",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-38.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-39",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-39.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-40",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-40.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-41",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-41.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-42",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-42.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-43",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-43.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-44",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-44.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-45",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-45.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-46",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-46.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-47",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-47.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-48",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-48.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-49",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-49.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-50",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-50.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-51",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-51.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-52",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-52.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-53",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-53.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-54",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-54.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-55",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-55.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-56",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-56.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-57",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-57.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-58",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-58.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-59",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-59.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-60",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-60.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-61",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-61.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-62",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-62.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-63",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-63.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-64",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-64.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-65",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-65.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-66",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-66.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-67",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-67.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-68",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-68.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-69",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-69.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-70",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-70.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-71",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-71.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-72",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-72.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-73",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-73.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-74",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-74.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-75",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-75.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-76",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-76.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-77",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-77.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-78",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-78.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-79",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-79.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-80",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-80.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-81",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-81.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-82",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-82.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-83",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-83.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-84",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-84.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-85",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-85.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-86",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-86.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-87",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-87.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-88",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-88.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-89",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-89.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-90",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-90.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-91",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-91.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-92",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-92.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-93",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-93.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-94",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-94.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-95",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-95.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-96",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-96.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-97",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-97.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-98",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-98.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      },
+      {
+        "id": "connector-server-99",
+        "host": "<DOCKER_TYPE>-connector-<DB_ENV>-99.<DOCKER_TYPE>-connector-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 4050,
+        "clientPort": 3001,
+        "frontend": true
+      }
+    ],
+    "admin": [
+      {
+        "id": "admin-server-0",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-0.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-1",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-1.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-2",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-2.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-3",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-3.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-4",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-4.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-5",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-5.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-6",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-6.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-7",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-7.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-8",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-8.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-9",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-9.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-10",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-10.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-11",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-11.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-12",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-12.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-13",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-13.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-14",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-14.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-15",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-15.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-16",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-16.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-17",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-17.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-18",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-18.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-19",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-19.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-20",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-20.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-21",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-21.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-22",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-22.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-23",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-23.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-24",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-24.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-25",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-25.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-26",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-26.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-27",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-27.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-28",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-28.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-29",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-29.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-30",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-30.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-31",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-31.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-32",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-32.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-33",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-33.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-34",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-34.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-35",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-35.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-36",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-36.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-37",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-37.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-38",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-38.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-39",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-39.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-40",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-40.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-41",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-41.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-42",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-42.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-43",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-43.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-44",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-44.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-45",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-45.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-46",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-46.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-47",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-47.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-48",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-48.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-49",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-49.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-50",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-50.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-51",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-51.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-52",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-52.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-53",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-53.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-54",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-54.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-55",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-55.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-56",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-56.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-57",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-57.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-58",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-58.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-59",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-59.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-60",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-60.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-61",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-61.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-62",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-62.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-63",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-63.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-64",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-64.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-65",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-65.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-66",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-66.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-67",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-67.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-68",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-68.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-69",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-69.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-70",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-70.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-71",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-71.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-72",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-72.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-73",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-73.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-74",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-74.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-75",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-75.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-76",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-76.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-77",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-77.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-78",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-78.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-79",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-79.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-80",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-80.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-81",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-81.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-82",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-82.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-83",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-83.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-84",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-84.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-85",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-85.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-86",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-86.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-87",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-87.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-88",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-88.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-89",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-89.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-90",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-90.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-91",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-91.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-92",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-92.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-93",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-93.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-94",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-94.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-95",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-95.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-96",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-96.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-97",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-97.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-98",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-98.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      },
+      {
+        "id": "admin-server-99",
+        "host": "<DOCKER_TYPE>-admin-<DB_ENV>-99.<DOCKER_TYPE>-admin-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3004
+      }
+    ],
+    "user": [
+      {
+        "id": "user-server-0",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-0.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-1",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-1.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-2",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-2.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-3",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-3.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-4",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-4.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-5",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-5.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-6",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-6.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-7",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-7.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-8",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-8.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-9",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-9.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-10",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-10.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-11",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-11.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-12",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-12.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-13",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-13.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-14",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-14.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-15",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-15.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-16",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-16.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-17",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-17.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-18",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-18.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-19",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-19.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-20",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-20.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-21",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-21.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-22",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-22.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-23",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-23.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-24",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-24.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-25",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-25.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-26",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-26.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-27",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-27.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-28",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-28.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-29",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-29.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-30",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-30.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-31",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-31.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-32",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-32.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-33",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-33.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-34",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-34.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-35",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-35.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-36",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-36.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-37",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-37.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-38",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-38.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-39",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-39.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-40",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-40.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-41",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-41.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-42",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-42.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-43",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-43.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-44",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-44.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-45",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-45.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-46",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-46.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-47",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-47.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-48",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-48.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-49",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-49.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-50",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-50.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-51",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-51.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-52",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-52.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-53",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-53.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-54",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-54.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-55",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-55.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-56",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-56.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-57",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-57.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-58",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-58.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-59",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-59.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-60",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-60.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-61",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-61.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-62",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-62.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-63",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-63.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-64",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-64.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-65",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-65.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-66",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-66.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-67",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-67.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-68",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-68.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-69",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-69.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-70",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-70.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-71",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-71.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-72",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-72.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-73",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-73.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-74",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-74.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-75",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-75.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-76",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-76.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-77",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-77.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-78",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-78.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-79",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-79.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-80",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-80.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-81",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-81.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-82",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-82.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-83",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-83.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-84",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-84.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-85",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-85.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-86",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-86.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-87",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-87.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-88",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-88.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-89",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-89.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-90",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-90.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-91",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-91.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-92",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-92.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-93",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-93.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-94",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-94.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-95",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-95.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-96",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-96.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-97",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-97.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-98",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-98.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      },
+      {
+        "id": "user-server-99",
+        "host": "<DOCKER_TYPE>-user-<DB_ENV>-99.<DOCKER_TYPE>-user-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3007
+      }
+    ],
+    "game": [
+      {
+        "id": "game-server-0",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-0.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-1",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-1.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-2",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-2.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-3",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-3.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-4",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-4.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-5",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-5.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-6",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-6.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-7",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-7.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-8",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-8.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-9",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-9.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-10",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-10.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-11",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-11.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-12",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-12.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-13",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-13.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-14",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-14.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-15",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-15.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-16",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-16.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-17",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-17.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-18",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-18.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-19",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-19.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-20",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-20.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-21",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-21.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-22",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-22.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-23",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-23.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-24",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-24.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-25",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-25.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-26",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-26.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-27",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-27.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-28",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-28.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-29",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-29.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-30",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-30.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-31",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-31.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-32",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-32.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-33",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-33.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-34",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-34.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-35",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-35.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-36",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-36.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-37",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-37.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-38",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-38.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-39",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-39.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-40",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-40.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-41",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-41.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-42",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-42.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-43",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-43.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-44",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-44.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-45",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-45.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-46",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-46.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-47",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-47.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-48",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-48.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-49",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-49.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-50",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-50.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-51",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-51.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-52",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-52.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-53",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-53.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-54",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-54.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-55",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-55.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-56",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-56.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-57",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-57.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-58",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-58.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-59",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-59.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-60",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-60.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-61",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-61.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-62",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-62.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-63",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-63.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-64",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-64.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-65",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-65.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-66",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-66.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-67",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-67.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-68",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-68.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-69",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-69.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-70",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-70.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-71",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-71.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-72",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-72.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-73",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-73.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-74",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-74.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-75",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-75.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-76",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-76.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-77",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-77.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-78",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-78.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-79",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-79.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-80",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-80.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-81",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-81.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-82",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-82.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-83",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-83.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-84",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-84.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-85",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-85.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-86",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-86.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-87",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-87.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-88",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-88.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-89",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-89.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-90",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-90.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-91",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-91.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-92",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-92.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-93",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-93.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-94",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-94.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-95",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-95.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-96",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-96.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-97",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-97.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-98",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-98.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      },
+      {
+        "id": "game-server-99",
+        "host": "<DOCKER_TYPE>-game-<DB_ENV>-99.<DOCKER_TYPE>-game-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3010
+      }
+    ],
+    "config": [
+      {
+        "id": "config-server-0",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-0.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-1",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-1.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-2",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-2.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-3",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-3.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-4",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-4.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-5",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-5.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-6",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-6.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-7",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-7.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-8",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-8.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-9",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-9.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-10",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-10.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-11",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-11.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-12",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-12.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-13",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-13.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-14",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-14.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-15",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-15.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-16",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-16.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-17",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-17.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-18",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-18.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-19",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-19.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-20",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-20.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-21",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-21.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-22",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-22.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-23",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-23.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-24",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-24.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-25",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-25.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-26",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-26.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-27",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-27.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-28",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-28.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-29",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-29.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-30",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-30.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-31",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-31.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-32",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-32.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-33",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-33.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-34",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-34.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-35",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-35.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-36",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-36.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-37",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-37.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-38",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-38.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-39",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-39.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-40",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-40.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-41",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-41.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-42",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-42.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-43",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-43.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-44",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-44.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-45",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-45.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-46",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-46.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-47",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-47.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-48",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-48.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-49",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-49.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-50",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-50.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-51",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-51.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-52",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-52.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-53",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-53.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-54",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-54.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-55",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-55.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-56",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-56.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-57",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-57.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-58",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-58.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-59",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-59.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-60",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-60.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-61",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-61.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-62",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-62.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-63",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-63.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-64",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-64.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-65",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-65.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-66",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-66.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-67",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-67.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-68",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-68.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-69",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-69.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-70",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-70.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-71",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-71.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-72",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-72.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-73",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-73.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-74",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-74.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-75",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-75.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-76",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-76.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-77",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-77.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-78",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-78.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-79",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-79.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-80",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-80.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-81",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-81.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-82",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-82.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-83",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-83.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-84",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-84.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-85",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-85.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-86",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-86.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-87",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-87.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-88",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-88.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-89",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-89.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-90",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-90.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-91",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-91.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-92",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-92.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-93",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-93.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-94",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-94.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-95",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-95.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-96",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-96.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-97",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-97.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-98",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-98.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      },
+      {
+        "id": "config-server-99",
+        "host": "<DOCKER_TYPE>-config-<DB_ENV>-99.<DOCKER_TYPE>-config-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3013
+      }
+    ],
+    "bet": [
+      {
+        "id": "bet-server-0",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-0.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-1",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-1.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-2",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-2.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-3",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-3.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-4",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-4.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-5",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-5.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-6",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-6.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-7",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-7.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-8",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-8.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-9",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-9.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-10",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-10.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-11",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-11.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-12",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-12.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-13",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-13.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-14",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-14.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-15",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-15.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-16",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-16.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-17",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-17.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-18",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-18.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-19",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-19.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-20",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-20.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-21",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-21.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-22",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-22.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-23",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-23.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-24",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-24.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-25",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-25.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-26",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-26.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-27",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-27.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-28",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-28.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-29",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-29.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-30",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-30.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-31",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-31.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-32",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-32.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-33",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-33.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-34",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-34.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-35",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-35.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-36",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-36.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-37",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-37.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-38",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-38.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-39",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-39.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-40",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-40.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-41",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-41.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-42",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-42.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-43",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-43.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-44",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-44.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-45",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-45.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-46",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-46.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-47",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-47.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-48",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-48.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-49",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-49.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-50",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-50.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-51",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-51.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-52",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-52.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-53",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-53.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-54",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-54.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-55",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-55.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-56",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-56.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-57",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-57.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-58",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-58.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-59",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-59.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-60",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-60.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-61",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-61.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-62",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-62.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-63",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-63.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-64",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-64.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-65",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-65.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-66",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-66.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-67",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-67.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-68",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-68.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-69",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-69.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-70",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-70.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-71",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-71.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-72",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-72.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-73",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-73.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-74",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-74.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-75",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-75.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-76",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-76.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-77",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-77.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-78",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-78.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-79",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-79.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-80",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-80.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-81",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-81.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-82",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-82.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-83",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-83.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-84",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-84.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-85",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-85.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-86",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-86.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-87",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-87.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-88",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-88.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-89",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-89.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-90",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-90.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-91",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-91.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-92",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-92.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-93",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-93.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-94",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-94.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-95",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-95.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-96",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-96.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-97",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-97.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-98",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-98.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      },
+      {
+        "id": "bet-server-99",
+        "host": "<DOCKER_TYPE>-bet-<DB_ENV>-99.<DOCKER_TYPE>-bet-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3019
+      }
+    ],
+    "chat": [
+      {
+        "id": "chat-server-0",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-0.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-1",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-1.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-2",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-2.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-3",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-3.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-4",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-4.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-5",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-5.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-6",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-6.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-7",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-7.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-8",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-8.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-9",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-9.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-10",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-10.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-11",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-11.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-12",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-12.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-13",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-13.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-14",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-14.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-15",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-15.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-16",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-16.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-17",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-17.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-18",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-18.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-19",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-19.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-20",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-20.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-21",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-21.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-22",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-22.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-23",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-23.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-24",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-24.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-25",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-25.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-26",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-26.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-27",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-27.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-28",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-28.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-29",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-29.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-30",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-30.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-31",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-31.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-32",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-32.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-33",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-33.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-34",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-34.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-35",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-35.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-36",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-36.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-37",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-37.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-38",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-38.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-39",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-39.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-40",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-40.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-41",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-41.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-42",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-42.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-43",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-43.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-44",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-44.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-45",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-45.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-46",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-46.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-47",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-47.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-48",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-48.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-49",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-49.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-50",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-50.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-51",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-51.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-52",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-52.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-53",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-53.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-54",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-54.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-55",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-55.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-56",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-56.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-57",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-57.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-58",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-58.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-59",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-59.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-60",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-60.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-61",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-61.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-62",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-62.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-63",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-63.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-64",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-64.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-65",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-65.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-66",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-66.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-67",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-67.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-68",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-68.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-69",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-69.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-70",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-70.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-71",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-71.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-72",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-72.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-73",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-73.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-74",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-74.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-75",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-75.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-76",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-76.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-77",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-77.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-78",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-78.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-79",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-79.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-80",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-80.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-81",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-81.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-82",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-82.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-83",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-83.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-84",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-84.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-85",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-85.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-86",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-86.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-87",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-87.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-88",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-88.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-89",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-89.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-90",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-90.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-91",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-91.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-92",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-92.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-93",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-93.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-94",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-94.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-95",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-95.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-96",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-96.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-97",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-97.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-98",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-98.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      },
+      {
+        "id": "chat-server-99",
+        "host": "<DOCKER_TYPE>-chat-<DB_ENV>-99.<DOCKER_TYPE>-chat-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3450
+      }
+    ],
+    "auth": [
+      {
+        "id": "auth-server-0",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-0.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-1",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-1.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-2",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-2.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-3",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-3.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-4",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-4.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-5",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-5.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-6",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-6.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-7",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-7.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-8",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-8.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-9",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-9.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-10",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-10.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-11",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-11.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-12",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-12.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-13",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-13.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-14",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-14.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-15",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-15.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-16",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-16.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-17",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-17.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-18",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-18.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-19",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-19.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-20",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-20.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-21",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-21.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-22",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-22.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-23",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-23.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-24",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-24.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-25",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-25.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-26",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-26.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-27",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-27.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-28",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-28.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-29",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-29.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-30",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-30.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-31",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-31.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-32",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-32.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-33",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-33.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-34",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-34.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-35",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-35.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-36",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-36.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-37",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-37.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-38",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-38.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-39",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-39.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-40",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-40.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-41",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-41.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-42",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-42.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-43",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-43.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-44",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-44.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-45",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-45.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-46",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-46.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-47",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-47.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-48",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-48.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-49",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-49.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-50",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-50.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-51",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-51.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-52",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-52.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-53",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-53.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-54",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-54.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-55",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-55.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-56",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-56.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-57",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-57.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-58",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-58.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-59",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-59.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-60",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-60.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-61",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-61.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-62",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-62.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-63",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-63.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-64",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-64.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-65",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-65.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-66",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-66.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-67",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-67.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-68",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-68.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-69",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-69.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-70",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-70.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-71",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-71.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-72",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-72.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-73",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-73.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-74",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-74.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-75",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-75.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-76",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-76.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-77",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-77.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-78",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-78.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-79",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-79.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-80",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-80.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-81",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-81.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-82",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-82.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-83",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-83.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-84",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-84.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-85",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-85.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-86",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-86.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-87",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-87.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-88",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-88.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-89",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-89.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-90",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-90.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-91",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-91.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-92",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-92.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-93",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-93.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-94",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-94.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-95",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-95.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-96",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-96.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-97",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-97.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-98",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-98.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      },
+      {
+        "id": "auth-server-99",
+        "host": "<DOCKER_TYPE>-auth-<DB_ENV>-99.<DOCKER_TYPE>-auth-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3451
+      }
+    ],
+    "log": [
+      {
+        "id": "log-server-0",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-0.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-1",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-1.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-2",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-2.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-3",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-3.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-4",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-4.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-5",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-5.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-6",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-6.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-7",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-7.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-8",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-8.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-9",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-9.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-10",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-10.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-11",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-11.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-12",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-12.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-13",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-13.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-14",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-14.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-15",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-15.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-16",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-16.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-17",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-17.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-18",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-18.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-19",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-19.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-20",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-20.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-21",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-21.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-22",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-22.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-23",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-23.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-24",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-24.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-25",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-25.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-26",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-26.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-27",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-27.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-28",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-28.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-29",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-29.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-30",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-30.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-31",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-31.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-32",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-32.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-33",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-33.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-34",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-34.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-35",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-35.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-36",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-36.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-37",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-37.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-38",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-38.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-39",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-39.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-40",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-40.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-41",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-41.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-42",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-42.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-43",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-43.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-44",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-44.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-45",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-45.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-46",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-46.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-47",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-47.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-48",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-48.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-49",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-49.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-50",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-50.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-51",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-51.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-52",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-52.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-53",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-53.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-54",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-54.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-55",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-55.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-56",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-56.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-57",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-57.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-58",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-58.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-59",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-59.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-60",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-60.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-61",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-61.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-62",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-62.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-63",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-63.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-64",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-64.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-65",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-65.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-66",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-66.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-67",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-67.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-68",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-68.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-69",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-69.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-70",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-70.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-71",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-71.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-72",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-72.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-73",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-73.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-74",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-74.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-75",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-75.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-76",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-76.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-77",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-77.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-78",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-78.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-79",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-79.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-80",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-80.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-81",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-81.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-82",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-82.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-83",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-83.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-84",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-84.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-85",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-85.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-86",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-86.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-87",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-87.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-88",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-88.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-89",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-89.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-90",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-90.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-91",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-91.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-92",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-92.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-93",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-93.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-94",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-94.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-95",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-95.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-96",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-96.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-97",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-97.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-98",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-98.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      },
+      {
+        "id": "log-server-99",
+        "host": "<DOCKER_TYPE>-log-<DB_ENV>-99.<DOCKER_TYPE>-log-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "port": 3452
+      }
+    ],
+    "gate": [
+      {
+        "id": "gate-server-0",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-0.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-1",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-1.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-2",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-2.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-3",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-3.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-4",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-4.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-5",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-5.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-6",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-6.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-7",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-7.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-8",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-8.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-9",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-9.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-10",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-10.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-11",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-11.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-12",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-12.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-13",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-13.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-14",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-14.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-15",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-15.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-16",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-16.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-17",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-17.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-18",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-18.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-19",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-19.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-20",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-20.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-21",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-21.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-22",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-22.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-23",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-23.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-24",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-24.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-25",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-25.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-26",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-26.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-27",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-27.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-28",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-28.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-29",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-29.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-30",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-30.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-31",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-31.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-32",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-32.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-33",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-33.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-34",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-34.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-35",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-35.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-36",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-36.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-37",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-37.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-38",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-38.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-39",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-39.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-40",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-40.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-41",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-41.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-42",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-42.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-43",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-43.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-44",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-44.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-45",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-45.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-46",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-46.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-47",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-47.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-48",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-48.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-49",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-49.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-50",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-50.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-51",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-51.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-52",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-52.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-53",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-53.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-54",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-54.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-55",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-55.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-56",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-56.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-57",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-57.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-58",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-58.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-59",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-59.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-60",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-60.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-61",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-61.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-62",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-62.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-63",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-63.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-64",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-64.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-65",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-65.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-66",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-66.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-67",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-67.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-68",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-68.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-69",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-69.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-70",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-70.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-71",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-71.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-72",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-72.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-73",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-73.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-74",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-74.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-75",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-75.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-76",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-76.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-77",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-77.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-78",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-78.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-79",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-79.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-80",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-80.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-81",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-81.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-82",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-82.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-83",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-83.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-84",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-84.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-85",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-85.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-86",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-86.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-87",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-87.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-88",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-88.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-89",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-89.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-90",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-90.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-91",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-91.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-92",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-92.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-93",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-93.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-94",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-94.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-95",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-95.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-96",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-96.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-97",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-97.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-98",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-98.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      },
+      {
+        "id": "gate-server-99",
+        "host": "<DOCKER_TYPE>-gate-<DB_ENV>-99.<DOCKER_TYPE>-gate-<DB_ENV>-ss-svc.default.svc.cluster.local",
+        "clientPort": 3000,
+        "frontend": true
+      }
+    ]
+  }
+}

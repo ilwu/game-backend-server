@@ -1,0 +1,17 @@
+{
+  "development": {
+    "host": "192.168.100.22",
+    "port": "3306",
+    "database": "game",
+    "user": "apma",
+    "password": "This123kw"
+  },
+
+  "production": {
+    "host": "35.194.230.120",
+    "port": "3306",
+    "database": "game",
+    "user": "jamxu",
+    "password": "jamxu789"
+  }
+}

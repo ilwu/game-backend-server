@@ -1,0 +1,15 @@
+{
+  "development": {
+    "host": "10.0.5.236",
+    "port": 31774,
+    "user": "",
+    "password": ""
+  },
+
+  "production": {
+    "host": "10.0.5.110",
+    "port": 6379,
+    "user": "",
+    "password": ""
+  }
+}
